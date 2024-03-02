@@ -8,3 +8,9 @@
   Cifrado del Mensaje en Base64 con Fernet: Ciframos el mensaje codificado en Base64 utilizando la instancia de Fernet.
   Mostrar los Resultados: Imprimimos la clave generada, el mensaje en Base64 y el mensaje cifrado con Fernet.
 
+2. descidrarFernet.py:
+# Importación de Librerías: Importamos las librerías necesarias, Fernet de cryptography y base64 para manejar la decodificación Base64.
+# Definición de la Clave y el Mensaje Cifrado: Se define la clave Fernet utilizada para el cifrado y el mensaje previamente cifrado que se desea descifrar.
+# Creación de una Instancia de Fernet: Se crea una instancia de Fernet utilizando la clave previamente definida.
+# Descifrado del Mensaje: Se utiliza la instancia de Fernet para descifrar el mensaje cifrado.
+# Decodificación del Mensaje: El mensaje descifrado se decodifica de Base64 a su forma original y se muestra en la consola.
